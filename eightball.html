@@ -1,37 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bola magica</title>
+    <title>Bola Mágica</title>
 
     <style>
-        body{
+        
+        body {
             padding: 0;
-            font-family: serif;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             width: 100vw;
             height: 100vh;
             display: grid;
             place-items: center;
+            background-color: #f5f5f5;
         }
 
-        main{
+     
+        main {
             width: 400px;
             height: 400px;
             border-radius: 50%;
-            border: 1px solid blue;
+            border: 5px solid blue;
             display: grid;
             place-items: center;
             text-align: center;
+            background-color: #f1c5ff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+      
+        button {
+            background-color: blueviolet;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: rgb(255, 0, 0);
+            color: black;
+        }
+
+      
+        form {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
 <body>
 
-    
     <main>
-        <h1>Preguntale a la bola magica</h1>
+        <h1>Pregúntale a la bola mágica</h1>
     </main>
+
+    <form action="index.html">
+        <button type="submit">Inicio</button>
+    </form>
+
     <script src="./eightball.js"></script> 
 </body>
 </html>
