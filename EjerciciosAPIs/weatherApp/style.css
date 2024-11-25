@@ -1,0 +1,56 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+
+header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 21, 255);
+    color: rgb(0, 0, 0);
+}
+
+.contenedorContenedores {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor{
+    height: 60%;
+    width: 40%;
+    background-image: url('sky-5534319_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+/* rgb(213, 209, 204) */
+
+
+
+.subbarra1{
+    height: 70%;
+    width: 100%;
+    background-color: red;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.subbarra2{
+    height: 0%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 0px 0px 10px 10px;
+}
